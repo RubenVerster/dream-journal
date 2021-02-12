@@ -1,5 +1,4 @@
 import { server } from '../../../config';
-import { useRouter } from 'next/router';
 import Link from 'next/link';
 
 import Meta from '../../../components/Meta';
@@ -12,7 +11,7 @@ const dream = ({
       <Meta title={dreamTitle} description={dreamExcerpt} />
       <h1>{dreamTitle}</h1>
       <small>{dreamDate}</small>
-      <p>{dreamContent}</p>
+      <p style={{ maxWidth: '750px' }}>{dreamContent}</p>
       <br />
       <Link href="/">Go Back</Link>
     </>

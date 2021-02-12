@@ -14,7 +14,7 @@ const About = () => {
         can then look out for these recurring dreams to get into a lucid state
         easier
       </p>
-      <p>v1.0.0</p>
+      <p>v1.1.0</p>
     </div>
   );
 };

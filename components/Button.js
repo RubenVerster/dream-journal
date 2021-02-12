@@ -23,7 +23,7 @@ Button.defaultProps = {
 
 Button.propTypes = {
   color: PropTypes.string.isRequired,
-  text: PropTypes.string.isRequired,
+  text: PropTypes.object.isRequired,
   onClick: PropTypes.func,
 };
 
